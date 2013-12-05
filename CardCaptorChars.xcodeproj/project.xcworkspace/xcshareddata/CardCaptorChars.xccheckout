@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>43937012-2E30-48FD-9F48-B1AE5AAAA1D4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CardCaptorChars</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CA9DC224-7363-44DC-838A-C5C7E63074D3</key>
+		<string>https://github.com/ajochope/CardCaptorChars.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CardCaptorChars.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CA9DC224-7363-44DC-838A-C5C7E63074D3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ajochope/CardCaptorChars.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CA9DC224-7363-44DC-838A-C5C7E63074D3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA9DC224-7363-44DC-838A-C5C7E63074D3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CardCaptorChars</string>
+		</dict>
+	</array>
+</dict>
+</plist>

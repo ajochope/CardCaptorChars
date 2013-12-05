@@ -10,10 +10,14 @@
 #import <Foundation/Foundation.h>
 #import "Character.h"
 
+
+
+
 int main()
 {
     Character *player1;
     Character *player2;
+    
     
     //Create and give the properties some values with KVC...
     player1 = [[Character alloc] init];
@@ -23,6 +27,11 @@ int main()
     player2 = [[Character alloc] init];
     [player2 setValue:@"Li Shaoran" forKey:@"characterName"];
     [player2 setValue:[NSNumber numberWithInt:21] forKey:@"ownedClowCards"];
+    
+    
+    [player1 addObserver:player1 forKeyPath:@"ownedClowCards" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+
+    
     
     //Done! Now we are going to fetch the values using KVC.
     
@@ -34,6 +43,11 @@ int main()
     
     NSLog(@"%@ has %d Clow Cards", mainCharacter, [mainCharCards intValue]);
     NSLog(@"%@ has %d Clow Cards", rival, [rivalCards intValue]);
+    
+    
+    
+    
+    [player1 removeObserver:player1 forKeyPath:@"ownedClowCards"];
     
 }
 

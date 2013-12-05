@@ -12,6 +12,9 @@
 {
     NSString *characterName;
     NSInteger ownedClowCards;
+    
+    
+    
 }
 @property (nonatomic, copy) NSString *characterName;
 @property NSInteger ownedClowCards;
